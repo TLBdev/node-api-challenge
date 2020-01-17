@@ -26,7 +26,7 @@ router.get('/:id', validateactionId, (req, res) => {
 });
 
 
-router.delete('/:id', (req, res) => {
+router.delete('/:id', validateactionId, (req, res) => {
     database.remove(req.params.id)
         .then(() => {
             res.status(200).json({ message: 'delete: successful' })
