@@ -40,13 +40,23 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] Mention two parts of Express that you learned about this week.
 
+i do not understand the wording of this question.
+
 - [ ] Describe Middleware?
+
+a peice of code that the request and response flow through, can do many things including modify the request
 
 - [ ] Describe a Resource?
 
+a collection of data,
+
 - [ ] What can the API return to help clients know if a request was successful?
 
+a status code and a json object with a success message
+
 - [ ] How can we partition our application into sub-applications?
+
+module.exports = X and const X = require('./fakepath/x.js')
 
 ## Minimum Viable Product
 
